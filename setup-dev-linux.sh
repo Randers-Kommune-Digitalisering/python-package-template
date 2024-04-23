@@ -4,6 +4,8 @@
 # . ./setup-dev-linux.sh
 # OR
 # source ./setup-dev-linux.sh
+#
+# NB: If your python alias is 'python3' instead of 'python', then run "alias python=python3" before running the script
 
 check_python() {
     if ! command -v python &> /dev/null; then
