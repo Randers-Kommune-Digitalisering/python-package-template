@@ -23,8 +23,9 @@ Nedenstående relaterer sig til et nyt Python app projekt der er baseret på den
 3. Kør ```. ./setup-dev-linux.sh ``` (Linix) eller ```setup-dev-windows.cmd``` (Windows), scriptet sætter et virtual environment op og installerer pakkerne i projekt filen
 
 ## Almindelige commands
-* Kør unit tests: ```pytest```
-* Kør linter: ```flake8 src tests```
+* Unit tests: ```pytest```
+* Unit tests med coverage ```pytest --cov=src```
+* Lint: ```flake8 src tests --show-source```
 
 ## Brug package efterfølgende
 ### Installer i nyt projekt
