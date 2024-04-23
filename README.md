@@ -29,3 +29,7 @@ Nedenstående relaterer sig til et nyt Python app projekt der er baseret på den
 ## Brug package efterfølgende
 ### Installer i nyt projekt
 * ```pip install git+https://github.com/Randers-Kommune-Digitalisering/<package name>@<branch>```
+* ```pip install git+https://github.com/Randers-Kommune-Digitalisering/<package name>@<tag>```
+### Tilføj til requirements.txt
+* ```<package name> @ git+https://github.com/Randers-Kommune-Digitalisering/<package name>@<branch>```
+* ```<package name> @ git+https://github.com/Randers-Kommune-Digitalisering/<package name>@<tag>```
